@@ -1,4 +1,11 @@
 #-*-coding:utf-8-*-
+
+#======================================================
+#	Autor: IK.
+#
+#
+#======================================================
+
 import sys
 from datetime import datetime
 from random import randint

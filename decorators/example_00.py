@@ -8,7 +8,6 @@
 #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 
-
 def decorator(f):
 	"""
 		Dekorator wyswietla tekst na standardowym wyjsciu.

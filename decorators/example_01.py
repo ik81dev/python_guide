@@ -37,8 +37,7 @@ def populate(L, n, debug=False,*args, **kwargs):
 
 @mesure_time_decorator
 def sample_noargs():
-	print "Hell
-	o world"
+	print "Hello world"
 
 
 if __name__ == "__main__":

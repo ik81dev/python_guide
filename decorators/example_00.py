@@ -9,9 +9,7 @@
 
 
 def decorator(f):
-	"""
-		Dekorator wyswietla tekst na standardowym wyjsciu.
-	"""
+	"""Dekorator wyswietla tekst na standardowym wyjsciu."""
 	def wrapper(*args, **kwargs):
 		print "Hello from decorator"
 		return f(*args, **kwargs)

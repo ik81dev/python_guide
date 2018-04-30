@@ -1,6 +1,5 @@
 #-*-coding:utf-8-*-
 
-
 #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 #	Autor: IK.
 #	Opis: Przykład użycia dekoratorów w języku skryptowym Python.

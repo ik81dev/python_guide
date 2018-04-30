@@ -36,11 +36,12 @@ def populate(L, n, debug=False,*args, **kwargs):
 	return L
 
 @mesure_time_decorator
-def sample():
-	print "Hello world"
+def sample_noargs():
+	print "Hell
+	o world"
 
-	
+
 if __name__ == "__main__":
-	sample()
+	sample_noargs()
 	print populate([], 10, debug=True, verbose=True, timeout=10)
 	sys.exit(0)

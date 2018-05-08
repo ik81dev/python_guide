@@ -1,0 +1,5 @@
+CONFIG = {
+	"LANGUAGA": "PL",
+	"CODING": "UTF-8",
+	"COUNTRY": "PL"
+}

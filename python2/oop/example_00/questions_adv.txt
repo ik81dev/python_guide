@@ -1,0 +1,40 @@
+Operator bitowy iloczynu w języku Python to:
+A ^
+B %
+C &
+C
+Operator bitowy sumy w języku Python to:
+A |
+B %
+C !
+A
+Pustą listę definiujemy za pomocą:
+A L=[]
+B L=()
+C L={}
+A
+Pusty słownik definiujemy za pomocą:
+A L=[]
+B L=()
+C L={}
+C
+Aby zmienić kodowanie pliku na UTF-8 modułu należy:
+A Dodać na początku pliku linię "#-*-coding:utf-8-*-"
+B Dodać na końcu pliku linię "#-*-coding:utf-8-*-"
+C Dodać w dowolnym miejscu pliku modułu zapis "#-*-coding:utf-8-*-"
+A
+Aby ponownie załadować moduł należy użyć polecenia:
+A load
+B import
+C reload
+C
+Aby posortować listę L=[1,2,3,4,5,6] należy użyć polecenia:
+A sorted(L)
+B sort(L)
+C L.sorted()
+A
+Aby usunąć pierwszy element listy L=[1,2,3,4,5,6,7] należy wywołać polecenie:
+A L.pop(0)
+B L.remove(1)
+C del L[0]
+B 

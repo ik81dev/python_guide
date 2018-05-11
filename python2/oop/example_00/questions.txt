@@ -1,0 +1,20 @@
+Operator bitowy iloczynu w języku Python to:
+A ^
+B %
+C &
+C
+Operator bitowy sumy w języku Python to:
+A |
+B %
+C !
+A
+Pustą listę definiujemy za pomocą:
+A L=[]
+B L=()
+C L={}
+A
+Pusty słownik definiujemy za pomocą:
+A L=[]
+B L=()
+C L={}
+C

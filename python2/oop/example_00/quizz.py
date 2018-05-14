@@ -4,17 +4,49 @@ import sys
 import logging
 import logging.config
 import random
+import re
 
+
+class Parser:
+	pass
+	
+	
+class QuestionParser(Parser):
+	def __init__(self, *args, **kwargs):
+		pass
+		
+		
 class QuizzItem(object):
+	"""Klasa reprezentuje pojedynczy egzemplarz pytania, 3 odpowiedzi oraz prawidlowa odpowiedz """
+	
 	
 	def __init__(self, title, q0, q1, q2, answer, logger=None):
 		self.logger = logger or logging.getLogger(__name__)
 		self.title = title
+		self.validate(q0, q1, q2, answer)
 		self.q0 = q0
 		self.q1 = q1
 		self.q2 = q2
 		self.answer = answer
-	
+
+	def validate(self, q0, q1, q2, answer):
+		"""Sprawdzenie formatu"""
+		assert q0.startswith("A"), "Odpowiedz '%s' nie zaczyna się od dużej litery A"%q0
+		assert q1.startswith("B"), "Odpowiedz '%s' nie zaczyna się od dużej litery B"%q1
+		assert q2.startswith("C"), "Odpowiedz '%s' nie zaczyna się od dużej litery C"%q2
+		assert answer in list("ABC"), "Prawidłowa odwiedz musi miec postać być literą A, B lub C"
+		
+		
+	def get_answers(self):
+		"""Zwraca identyfikatory odwiedzi [A,B,C] lub [1,2,3]"""
+		
+		
+	@classmethod
+	def from_string(self):
+		"""Zwraca obiekt QuizzItem na podstawie przekazanego ciągu znaków"""
+		raise NotImplementedError
+			
+		
 	def __repr__(self):
 		""""""
 		return "{}\n\t{}\n\t{}\n\t{}".format(self.title, self.q0, self.q1, self.q2)

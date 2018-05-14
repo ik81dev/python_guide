@@ -7,7 +7,8 @@ import random
 
 class QuizzItem(object):
 	
-	def __init__(self, title, q0, q1, q2, answer):
+	def __init__(self, title, q0, q1, q2, answer, logger=None):
+		self.logger = logger or logging.getLogger(__name__)
 		self.title = title
 		self.q0 = q0
 		self.q1 = q1
@@ -73,5 +74,6 @@ class Quizz(object):
 	
 	
 if __name__ == "__main__":
+	logging.config.fileConfig("log.ini")
 	assert len(sys.argv) == 2, "Błędna liczba argumentów."
 	Quizz(sys.argv[1], logger=logging.getLogger()).shuffle().start()

@@ -1,4 +1,28 @@
 #-*-coding:utf-8 -*-
+
+"""
+	Przykładowa implementacja mechanizmu do testowania wiedzy.
+	Pakiet zawiera moduł dokumentacji oraz testow jednostkowych.
+	Pakiet zawiera taże przykładowy zbiór pytań testowych do wykorzystania.
+	
+	2018-05-14:
+				- Naprawiłem plik konfiguracyjny logowania.
+				- Dodałem podpakiet zawierający testy.
+				- Dodałem podpakiet zawierający szablon dokumentacji projektu.
+				- Przeniosłem przykładowe zestawy plików do oddzielnego folderu.
+	TODO: 
+				- Przeniesienie klas do oddzielnych plików dla większej przejrzystości.
+				- Implementacja klasy parsującej plik.
+				- Utworzenie pakietu dystrybucyjnego.
+				- Założenie konta na pypi oraz upload oprogramowania.
+				- Założenie strony projektu i wrzucenie dokumentacji.
+				- Rozbudowanie modułu testów jednostkowych.
+				- Nowa gałąź projektu QuizzWebApp.
+				- Testy REST.
+				- Przeniesienie pytań z pliku testowego do bazy danych Sqlite3.
+				- Hosting aplikacji na wybranym serwerze w internecie.
+"""
+
 import os
 import sys
 import logging

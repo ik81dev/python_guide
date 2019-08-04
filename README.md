@@ -1,4 +1,4 @@
-# Python. Samouczek
+# Python
 
 Przykładowy projekt rozwijający umiejętności programowania w języku Python.
 
